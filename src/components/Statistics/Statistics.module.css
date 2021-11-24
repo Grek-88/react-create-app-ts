@@ -1,0 +1,26 @@
+.statistics {
+  text-align: center;
+  margin: 50px;
+  width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  color: white;
+  width: 100%;
+  height: 60px;
+}
+
+.percentage {
+  display: block;
+  margin-top: 10px;
+}
