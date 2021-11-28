@@ -25,6 +25,7 @@ export default function MoviesApp() {
       return;
     };
     fetchData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
   const submitForm = (dataQuery: string) => {
